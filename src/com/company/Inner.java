@@ -1,7 +1,5 @@
 package com.company;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 public class Inner {
     class Contents {
         private  int i = 11;
