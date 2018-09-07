@@ -78,3 +78,28 @@ public class MultiNestingAccess {
         mnaab.h();
     }
 }*/
+
+/*interface Counter {
+    int next();
+}
+class LocalInnerClass {
+    Counter getCounter(final String name) {
+        class LocalCounter implements Counter {
+            public LocalCounter() {
+
+            }
+        }
+        return new LocalCounter();
+    }
+
+    Counter getCounter2(final String name) {
+        return new Counter() {
+            {
+                System.out.println("Over budget!");
+            }
+
+        }
+    }
+}*/
+
+
